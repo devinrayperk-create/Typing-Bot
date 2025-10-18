@@ -1,7 +1,7 @@
 const highlightedLetterSelector = ".letter_marked,.letter_space_marked";
 
 const footContainerSelector = "#result";
-const defaultDelay = 25;
+const defaultDelay = 1;
 const delayRangeSelector = `
 <h3>Typing Delay :</h3>
 <input type="range" value="${defaultDelay}" min="0" max="500" name="typingDelay" id="typingDelay">
